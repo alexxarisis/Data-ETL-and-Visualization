@@ -21,7 +21,7 @@ You are presented with 4 different categories:
 * Plots
 
 ### Main screen
-![Main screen](/images/main_screen.png)
+![Main screen](assets/main_screen.png)
 
 ### Plots
 
@@ -35,11 +35,11 @@ There are 3 kinds of plots, each working under different conditions (for k,k'>0)
 | Scatter  | 2   | 1   | Any           | Yes |
 
 #### Timeline plots
-![Timeline plot](/images/timeline.png)
+![Timeline plot](assets/timeline.png)
 #### Bar plots
-![Bar plot](/images/bar.png)
+![Bar plot](assets/bar.png)
 #### Scatter plots
-![Scatter plot](/images/scatter.png)
+![Scatter plot](assets/scatter.png)
 
 ## Installation
 
@@ -93,7 +93,7 @@ During the ETL procedure, the data is discarded, normalized and formatted, from 
 
 *This process is automated, so new data from the same source can easily be added.*
 
-![ETL procedure](/images/etl_procedure.jpg)
+![ETL procedure](assets/etl_procedure.jpg)
 
 ## Architecture 
 
@@ -104,7 +104,7 @@ The GUI has an MVC architecture:
 * The `Model` package is the backend of the app, connecting to the database and plotting the data,
 * While the `Controller` is the intermediary between client and backend.
 
-![Architecture](/images/architecture.jpg)
+![Architecture](assets/architecture.jpg)
 
 ## Database
 
@@ -117,7 +117,7 @@ The tables seperate the 3 main factors of the app:
 * The countries,
 * And the statistics
 
-![Database Schema](/images/database_schema.jpg)
+![Database Schema](assets/database_schema.jpg)
 
 ### Database optimizations
 
